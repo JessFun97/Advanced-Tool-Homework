@@ -104,3 +104,12 @@ div.container {
   margin: 0px 34px;
   padding: 0px 12px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+  }
+  h1 {
+    font-size: 48px;
+  }
+}
